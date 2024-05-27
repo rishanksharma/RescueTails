@@ -1,0 +1,114 @@
+.cover{
+    
+    padding-top: 25%;
+    
+    background-image: url('cover.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+    
+}
+.header{
+    font-family: cursive;
+   font-size: 40px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px black ;
+    
+    
+}
+.button{
+   padding: 13px;
+    align-items: center;
+    margin-left: 45%;
+   background-color: #F2C23C;
+    border-radius: 15px;
+    margin-bottom: 7%;
+    margin-top: 2%;
+}
+
+section{
+    text-align: center;
+    font-size: xx-large;
+    
+}
+.how{
+    text-align: center;
+    background-color: #F4F5F6;
+}
+.step{
+    display: inline-block;
+    margin: 5%;
+    margin-top: 1%;
+    
+}
+.journey{
+    display: flex;
+}
+
+.about section {
+    
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+    
+}
+.howabout p{
+    
+    box-sizing: border-box;
+    font-size: small;
+}
+
+.h2{
+    text-align: center;
+    
+
+}
+.footers{
+    background-color:#e99930 ;
+    
+    height: 50px;
+    
+
+}
+.fun-text{
+    text-align: center;
+    padding-top: 10px;
+    font-size: x-large;
+}
+.answer{
+    color: #666;
+    max-height: fit-content;
+    font-size: larger;
+    
+
+}
+.active{
+    
+    max-height: 0;
+    overflow: hidden;
+}
+
+.faq{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+    
+}
+.question{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.actver{
+    transform: rotate(-180deg);
+}
+
