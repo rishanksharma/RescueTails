@@ -1,7 +1,8 @@
 .container{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+	justify-content: space-evenly;
+   
+   flex-wrap: wrap;
     
 }
 p{
@@ -12,12 +13,13 @@ p{
     background-color: #fff;
 	display: flex;
 	flex-direction: column;
+	flex-wrap: nowrap;
 	align-items: center;
 	justify-content: space-between;
 	border: 1px solid #ddd;
     box-shadow: 2px  5px #ddd;
-	padding: 15px;
-    width: 20%;
+	padding: 25px;
+    
     
 }
 .box>h3{
@@ -53,4 +55,11 @@ p{
 }
 *{
     background-color: azure;
+}
+
+@media only screen and (max-width:455px) {
+	.container{
+		flex-direction: column;
+	}
+	
 }
